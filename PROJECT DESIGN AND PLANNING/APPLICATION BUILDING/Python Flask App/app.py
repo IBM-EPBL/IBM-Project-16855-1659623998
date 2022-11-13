@@ -59,7 +59,7 @@ def y_predict():
     print(X)
     y_prediction = model_rand.predict(X)
     print(y_prediction)
-    return render_template('details.html',ypred = 'The resale value redicted is {:2f}$'.format(y_prediction[0]))
+    return render_template('details.html',ypred = 'The resale value predicted is {:2f}$'.format(y_prediction[0]))
 
 if __name__ == '__main__':
   app.run(host='localhost',debug =True, threaded =False)

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>  
+    body  
+    {  
+    background-image:url("{{ url_for('static', filename='img3.jpg') }}");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }  
+    #container{
+        border-style: 1;
+        padding: 50px 50px 50px 50px;
+        width: 270px;
+        padding: 50px;
+        margin: 50px;
+        background-color:rgb(173, 205, 214);
+        box-shadow: 10px 10px rgb(75, 20, 20);
+    }
+    </style>
+ 
+</head>
+ 
+<body>
+<center><div>
+<div id="container">
+<form action="login" method="post" id="flogin">
+<div class="border-box">
+<h1>Login</h1>
+<table border="1"/>
+<br>
+<label for="uname" id="un">Username:</label>
+<input type="text" name="user" placeholder="Enter Username" id="uname" required/><br/>
+ <br>
+<label for="upass" id="ps">Password:</label>
+<input type="password" name="pass" placeholder="Enter Password" id="upass" required/><br/>
+</br>
+<br>
+<button><a href="predict">Submit</a></button>
+ </br>
+<br>
+<a href="reg">new user</a>
+</div>
+ 
+</form>
+</div>
+</center></div>
+</body>
+</html>

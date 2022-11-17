@@ -1,7 +1,0 @@
-Jira software: BOARD
-
-https://car-resalevalue.atlassian.net/jira/software/projects/CR/boards/1
-
-Jira software: ROADMAP
-
-https://car-resalevalue.atlassian.net/jira/software/projects/CR/boards/1/roadmap
